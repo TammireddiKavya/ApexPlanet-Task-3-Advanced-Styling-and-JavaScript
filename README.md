@@ -13,3 +13,4 @@ This project demonstrates advanced front-end techniques, including responsive de
 
 OUTPUT:
 
+<img width="1214" height="1042" alt="Image" src="https://github.com/user-attachments/assets/b853f4f4-46b4-440e-891f-9d4f76073556" />
