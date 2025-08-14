@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz & Joke</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 Interactive Quiz & Random Joke</h1>
+    </header>
+
+    <main>
+      <section class="card" id="quiz-section">
+        <h2>🧠 Quiz Time!</h2>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="result"></div>
+        <button id="next-btn">Next Question</button>
+      </section>
+
+      <section class="card" id="joke-section">
+        <h2>😂 Random Joke</h2>
+        <button onclick="getJoke()">Get a Random Joke</button>
+        <p id="joke"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Fun & Learn. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
